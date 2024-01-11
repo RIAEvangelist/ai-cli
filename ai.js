@@ -7,6 +7,7 @@ import OPENAI_API_KEY from '../keys.js';
 //external
 import 'openai/shims/web';
 import OpenAI from 'openai';
+import {color} from 'nozaki-colors';
 
 const openai = new OpenAI(
     {
@@ -25,7 +26,7 @@ const messages=[];
 
 async function main() {
     rl.question(
-        'YOU> ',
+        `${color.lightGreen}YOU>${color.end} `,
         process_prompt
     );
 }
@@ -46,7 +47,7 @@ async function process_prompt(prompt){
     
     let resp='';
 
-    console.log('\nGPT:\n');
+    console.log(`\n${color.magenta}GPT:${color.end}\n`);
 
     for await (const chunk of stream) {
         const data=chunk.choices[0]?.delta?.content || '';
