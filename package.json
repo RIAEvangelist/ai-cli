@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/RIAEvangelist/ai-cli#readme",
   "dependencies": {
-    "openai": "^4.24.3"
+    "openai": "4.24.3"
   }
 }
