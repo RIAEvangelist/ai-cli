@@ -1,6 +1,6 @@
 {
   "name": "node-ai-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type":"module",
   "description": "A CLI for communicationg with OpenAI and similar GPTs",
   "main": "ai.js",

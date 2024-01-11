@@ -38,7 +38,7 @@ async function process_prompt(prompt){
     const stream = await openai.chat.completions.create(
         {
             //model: 'gpt-3.5-turbo-1106',
-            model: 'gpt-4-turbo-1106',
+            model: 'gpt-4-1106-preview',
             messages: messages,
             stream: true,
         }
