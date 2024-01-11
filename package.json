@@ -1,5 +1,5 @@
 {
-  "name": "ai-cli",
+  "name": "node-ai-cli",
   "version": "0.0.1",
   "type":"module",
   "description": "A CLI for communicationg with OpenAI and similar GPTs",
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/RIAEvangelist/ai-cli#readme",
   "dependencies": {
-    "openai": "4.24.3"
+    "openai": "^4.24.3"
   }
 }
