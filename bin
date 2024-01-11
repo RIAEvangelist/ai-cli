@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //core
 import {default as readline} from 'readline';
 

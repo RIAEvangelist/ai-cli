@@ -1,11 +1,25 @@
 # node-ai-cli
 
-## setup
-make a new dir  
-inside of that new dir clone the `node-ai-cli` repo  
-in the new dir, ***NOT*** the `node-ai-cli` repo, make a `package.json` file and a `keys.js` file and put your API key in it. It is in the git ignore, but still, put it in the parent Dir of node-ai-cli, not inside of `node-ai-cli`.
+## From NPM
+
+Install from NPM by running
+
+```bash
+
+npm i -g node-ai-cli
+
+```
+
+## setup from NPM
+
+```bash
+
+```
+
+make a `keys.js` file in the root and put your API key in it. It is in the git ignore so it will never be committed to git.
 
 ### ../keys.js file
+
 ```js
 
 export const OPENAI_API_KEY='your-key-example';
@@ -13,23 +27,22 @@ export default OPENAI_API_KEY;
 
 ```
 
-### ../package.json file
-```js
-
-{
-  "type":"module"
-}
-
-```
-
-
-
 ### Run it
-from inside the `node-ai-cli` dir run the following.
+
+Now `node-ai-cli` can be used in your terminal or powershell, any where.
 
 ```bash
 
-npm i
-npm start
+node-ai-cli
+
+```
+
+## Install from src (clone of this repo)
+
+Follow the setup to create `keys.js` then run from the `node-ai-cli` dir run `npm install -g .` the dot signifying this folder is the module and the `node-ai-cli will be available`.
+
+```bash
+
+npm i -g .
 
 ```

@@ -1,12 +1,15 @@
 {
   "name": "node-ai-cli",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "type": "module",
   "description": "A CLI for communicationg with OpenAI and similar GPTs",
   "main": "ai.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ai.js"
+    "start": "npm i & node ai.js"
+  },
+  "bin": {
+    "node-ai-cli": "./bin"
   },
   "repository": {
     "type": "git",
