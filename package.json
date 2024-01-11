@@ -1,0 +1,32 @@
+{
+  "name": "ai-cli",
+  "version": "0.0.1",
+  "type":"module",
+  "description": "A CLI for communicationg with OpenAI and similar GPTs",
+  "main": "ai.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ai.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RIAEvangelist/ai-cli.git"
+  },
+  "keywords": [
+    "ai",
+    "GPT",
+    "openai",
+    "open-ai",
+    "cli",
+    "terminal"
+  ],
+  "author": "Brandon Nozaki Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RIAEvangelist/ai-cli/issues"
+  },
+  "homepage": "https://github.com/RIAEvangelist/ai-cli#readme",
+  "dependencies": {
+    "openai": "^4.24.3"
+  }
+}
